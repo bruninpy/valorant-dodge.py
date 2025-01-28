@@ -9,7 +9,6 @@ an Application that manually dodges without pressing alt + f4 or waiting 75 seco
 [Button Icon]: https://img.shields.io/badge/Releases-EF2D5E?style=for-the-badge&logoColor=white&logo=DocuSign
 [![Button Icon]][Link]
 
-
 <br>
 
 ## ❔ How to use
