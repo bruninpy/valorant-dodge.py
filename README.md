@@ -1,5 +1,5 @@
 
-![image](https://prnt.sc/gHHcWug7zawW)
+[![l-JRPQ1-RYT9-O0t2d9q-AAvi-Q.webp](https://i.postimg.cc/Ssst7q1X/l-JRPQ1-RYT9-O0t2d9q-AAvi-Q.webp)](https://postimg.cc/7CFVqvkD)
 
 # VALORANT-Dodge.py
 an Application that manually dodges without pressing alt + f4 or waiting 75 seconds.
