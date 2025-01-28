@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>valorant-dodge.py</title>
+    <link rel="icon" href="https://preview.redd.it/buzyn25jzr761.png?width=1000&format=png&auto=webp&s=c8a55973b52a27e003269914ed1a883849ce4bdc" type="image/x-icon">
+    <style>
+        body {
+            background-color: rgb(15, 14, 17);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: "Courier New", Courier, monospace;
+            cursor: url('cursors/Normal.cur'), auto;
+            flex-direction: column;
+        }
+
+        #button {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-family: "Courier New", Courier, monospace;
+            background-color: #2424241f;
+            color: white;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;  
+            cursor: url('cursors/Select.cur'), auto;
+            outline-color:  rgb(24, 0, 0);
+            outline-style: auto;
+        }
+
+        #button:hover {
+            color: rgb(0, 0, 0);
+            outline-color:  rgb(0, 0, 0);
+            background-color: #ffffff;
+        }
+
+        #credits {
+            position: absolute;
+            bottom: 10px;
+            font-size: 12px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            font-family: 'Arial', sans-serif;
+            letter-spacing: 1px;
+        }
+
+        #github-logo {
+            width: 15px;
+            height: 15px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        #credits span {
+            color: white;
+        }
+    </style>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script>
+        window.onload = function() {
+            window.resizeTo(900, 500);
+        };
+
+        window.onbeforeuneload = function() {
+            eel.stop();
+        };
+
+        function dodgeJS() {
+            eel.dodge()
+        }
+    </script>
+</head>
+<body>
+    <input type="button" id="button" value="DODGE" onClick="dodgeJS()"/>
+    <div id="credits">
+        <img id="github-logo" src="https://img.icons8.com/ios11/512/FFFFFF/github.png" alt="GitHub Logo">
+        <span>https://github.com/bruninpy</span>
+    </div>
+</body>
+</html>
