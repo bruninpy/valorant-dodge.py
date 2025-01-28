@@ -1,5 +1,5 @@
 
-![image](https://github.com/SuppliedOrange/VALORANT-Instalocker/assets/70258998/000c238b-c72e-4682-abc6-90fca7d2cbda)
+![image](https://prnt.sc/gHHcWug7zawW)
 
 # VALORANT-Dodge.py
 an Application that manually dodges without pressing alt + f4 or waiting 75 seconds.
