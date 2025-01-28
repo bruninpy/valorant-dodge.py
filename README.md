@@ -5,7 +5,7 @@
 an Application that manually dodges without pressing alt + f4 or waiting 75 seconds.
 
 ## 📩 Installation
-  [Link]: https://github.com/SuppliedOrange/VALORANT-Instalocker/releases/latest 'Latest Release'
+  [Link]: https://github.com/bruninpy/valorant-dodge.py/releases/latest 'Latest Release'
 [Button Icon]: https://img.shields.io/badge/Releases-EF2D5E?style=for-the-badge&logoColor=white&logo=DocuSign
 [![Button Icon]][Link]
 
@@ -15,7 +15,7 @@ an Application that manually dodges without pressing alt + f4 or waiting 75 seco
 
 - Download this application
 - Wait 30 seconds for the build to be fully done.
-- Click ONE Time on the app.py ( If you spam it, it won't work and will give errors. )
+- Click ONE Time on the .exe ( If you spam it, it won't work and will give errors. )
 - Start VALORANT and this app.
 - Now click dodge and you will have successfully dodged. ( If you try to use it outside of a pre-game, it won't work. )
 - Optionally, it's recommended to have [Google Chrome](https://www.google.com/intl/en_in/chrome/) installed. The .exe will simply open in your default browser otherwise, but it will still work.
